@@ -1,0 +1,8 @@
+gsap.from('#darkMode',1.5 , {opacity:0,x :-200})
+gsap.from('.headers',1 , {y: -200 , delay:0.6})
+gsap.from('.inputDiv',1,{y:5000,delay:.9})
+gsap.from('.todoBar',1,{y:1000,delay:1.2,})
+gsap.from('.todosUl',1.6,{scale:0.1,delay:1.8})
+gsap.from('.searchInputDiv',1,{y:5000,delay:2.1})
+gsap.from('.doneBar',1,{y:1000,delay:2.4,})
+gsap.from('.doneUl',1.2,{scale:0.1,delay:3})

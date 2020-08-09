@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Test web page</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <img id="lightMode" src="images/light.png" alt="Light Mode">
+  <img id="darkMode" src="images/dark.png" alt="Dark Mode">
+  <div class="headers">
+    <p class="headerText">To-Do!</p>
+  </div>
+  <div class="container">
+    <div class="todos">
+      <div class="inputDiv">
+        <input type="textbox" value="hello" class="todoInput" placeholder="Add Item" autofocus>
+        <div class="addBar">
+          <img class="add" src="images/add.png" alt="Add item">
+        </div>
+      </div>
+      <div class="todoBar">
+        <ul class="todosUl">
+          <div class="todoImageDiv">
+            <img class="toDoImagePlaceholder" src="images/add.png" alt="Add Item">
+              &nbsp; Add item!
+          </div>
+        </ul>
+      </div>
+    </div>
+    <div class="done">
+      <div class="searchInputDiv">
+        <input type="textbox" class="searchInput" placeholder="Search Item " name="" value="">
+        <div class="searchBar">
+          <img class="searchIcon" src="images/search.png" alt="Search item">
+        </div>
+      </div>
+      <div class="doneBar">
+        <div class="clear">
+          <p>clear</p>
+        </div>
+        <ul class="doneUl">
+          <div class="noResultDiv noResultDivHide">
+            <img class="noResult" src="images/noresult.png" alt="No Result!">
+              &nbsp;&nbsp;No Result!
+          </div>
+          <div class="doneImageDiv">
+            <img class="doneImagePlaceholder" src="images/opps.png" alt="Add Item">
+              &nbsp;&nbsp;Empty!
+          </div>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script src="script.js" charset="utf-8"></script>
+  <script src="animation.js" charset="utf-8"></script>
+</body>
+</html>
